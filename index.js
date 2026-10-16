@@ -9,6 +9,7 @@ const PORT = process.env.PORT || 8000;
 
 // middleware
 app.use(express.json());
+// read the data from the body
 app.use(express.urlencoded({ extended: false }));
 
 // Routes
